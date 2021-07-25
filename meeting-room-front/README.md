@@ -10,16 +10,19 @@ Dependências utilizadas:
 
 Detalhes adicionais:
 
-* Em ```db.json``` está o banco de dados de teste. Porta em: ```json-server.json```.
+* Em ```db.json``` está o banco de dados de teste. Porta em: ```json-server.json```. Utilização:
+```
+(npx) json-server --watch db.json
+```
 
-* O arquivo ```proxy.conf.json``` serve para estabelecer uma comunicação entre o padrão ```localhost:4200``` do Angular e os endpoints da API presentes no back-end. Na seção "scripts" do arquivo ```package.json```, é possível notar a seguinte linha.
+* O arquivo ```proxy.conf.json``` serve para estabelecer uma comunicação entre o padrão ```localhost:4200``` do Angular e os endpoints da API presentes no back-end. Na seção "scripts" do arquivo ```package.json```, é possível notar a seguinte linha:
 ```
 "start": "ng serve --proxy-config proxy.conf.json"
 ```
 
 Isso faz com que o comando ```npm start``` inicie o Angular com as configurações definidas no proxy.
 
-* Configuração adicional no ```angular.json``` para Bootstrap e jQuery a seguir.
+* Configuração extra no arquivo ```angular.json``` para Bootstrap e jQuery a seguir.
 ```
 "styles": [
   "src/styles.css",
