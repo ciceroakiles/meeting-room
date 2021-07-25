@@ -20,14 +20,14 @@ Detalhes adicionais:
 
 Isso faz com que o comando ```npm start``` inicie o Angular com as configurações definidas no proxy.
 
-* Configuração adicional no ```package.json``` para Bootstrap e jQuery a seguir.
+* Configuração adicional no ```angular.json``` para Bootstrap e jQuery a seguir.
 ```
 "styles": [
-    "src/styles.css",
-    "node_modules/bootstrap/dist/css/bootstrap.min.css"
+  "src/styles.css",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css"
 ],
 "scripts": [
-    "node_modules/bootstrap/dist/js/bootstrap.min.js",
-    "node_modules/jquery/dist/jquery.min.js"
+  "node_modules/bootstrap/dist/js/bootstrap.min.js",
+  "node_modules/jquery/dist/jquery.min.js"
 ]
 ```
