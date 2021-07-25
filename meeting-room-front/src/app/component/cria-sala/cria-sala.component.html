@@ -1,0 +1,30 @@
+<h3>Criar sala</h3>
+<div [hidden]="enviou" style="width: 400px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" class="form-control" id="name" required [(ngModel)]="sala.name" name="name">
+    </div>
+
+    <div class="form-group">
+        <label for="name">Data</label>
+        <input type="text" class="form-control" id="date" required [(ngModel)]="sala.data" name="date">
+    </div>
+
+    <div class="form-group">
+        <label for="name">Hora de início</label>
+        <input type="text" class="form-control" id="startHour" required [(ngModel)]="sala.horaInicio" name="startHour">
+    </div>
+
+    <div class="form-group">
+        <label for="name">Hora de término</label>
+        <input type="text" class="form-control" id="endHour" required [(ngModel)]="sala.horaFim" name="endHour">
+    </div>
+
+    <button type="submit" class="btn btn-success">Criar</button>
+  </form>
+</div>
+
+<div [hidden]="!enviou">
+  <button class="btn btn-success" (click)="novaSala()">Adicionar</button>
+</div>
