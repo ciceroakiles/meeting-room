@@ -8,7 +8,6 @@ Dependências utilizadas:
 * jQuery;
 * JSON Server.
 
-
 Detalhes adicionais:
 
 * Em ```db.json``` está o banco de dados de teste. Porta em: ```json-server.json```.
