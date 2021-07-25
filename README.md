@@ -4,7 +4,7 @@ Cada sala possui id, nome, uma data e dois horários. Se o front consegue enxerg
 
 ![Imgur](https://i.imgur.com/b36yRM7.png)
 
-A imagem acima provavelmente será alterada de acordo com o front, caso haja alguma alteração significativa no futuro.
+A imagem acima provavelmente será atualizada de acordo com o front, caso haja alguma alteração significativa no futuro.
 
 * No back-end: Spring Boot 2.5.3
 
